@@ -1,0 +1,57 @@
+#main-header {
+  padding: 7vh 15vw;
+}
+
+#taglines {
+  padding-bottom: 6vh;
+}
+
+#tagline {
+  font-family: "Satisfy", cursive;
+  color: #e0b463;
+  white-space: nowrap;
+  font-size: 4vw;
+}
+
+#tagline2 {
+  font-family: "Poppins", sans-serif;
+  color: gray;
+  white-space: nowrap;
+  width: 100%;
+  font-size: 6.1vw;
+}
+
+.food-pic {
+  border-radius: 10px;
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+}
+
+.add-btn {
+  background-color: lightgray;
+  border-radius: 30px;
+  width: 10vw;
+  height: 3vh;
+  border: none;
+  text-align: center;
+  font-size: small;
+  filter: drop-shadow(gray 0rem 0.2rem 3px);
+}
+
+.price {
+  font-size: large;
+}
+
+.descripton {
+  font-size: small;
+  height: 10vh;
+}
+
+.menu-item {
+  margin-bottom: 2vh;
+}
+
+.name {
+  font-weight: bold;
+}

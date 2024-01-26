@@ -1,1 +1,124 @@
-<h1> Hello World!</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Import Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- Import your style.css stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Satisfy&display=swap");
+    </style>
+  </head>
+
+  <!-- Implement below this point -->
+  <body>
+    <header>
+      <img
+        src="os-campus-cafe-logo-2x.png"
+        alt="o's campus cafe logo"
+        class="img-fluid mx-auto d-block"
+        id="main-header"
+      />
+    </header>
+    <section class="text-center" id="taglines">
+      <h3 id="tagline">Delicious, From-Scratch Recipes Close at Hand</h3>
+      <h3 id="tagline2">The Fresh Choice of UT!</h3>
+    </section>
+
+    <section class="container" id="menu-items">
+      <div class="row menu-item">
+        <div class="col-4">
+          <img
+            src="Oven-Fried-Chicken-Tenders-Recipe.jpg"
+            alt="Chicken Tenders"
+            class="img-fluid food-pic"
+          />
+        </div>
+        <div class="col-8">
+          <h2 class="name">Chicken Tenders</h2>
+          <p class="descripton">
+            Juicy, golden-brown tenders with your choice of dip—an irresistible
+            blend of succulence and crunch.
+          </p>
+          <div class="d-flex justify-content-between">
+            <p class="price">$10.25</p>
+            <button type="button" class="add-btn">Add</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row menu-item">
+        <div class="col-4">
+          <img
+            src="Salmon-with-Lemon-Sauce-1-2.jpg"
+            alt="Salmon"
+            class="img-fluid food-pic"
+          />
+        </div>
+        <div class="col-8">
+          <h2 class="name">Salmon</h2>
+          <p class="descripton">
+            Tender salmon, baked with aromatic herbs, served with lemon-butter
+            sauce—a healthy, flavorful delight.
+          </p>
+          <div class="d-flex justify-content-between">
+            <p class="price">$13.25</p>
+            <button type="button" class="add-btn">Add</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row menu-item">
+        <div class="col-4">
+          <img
+            src="fish-tacos.jpg"
+            alt="fish tacos"
+            class="img-fluid food-pic"
+          />
+        </div>
+        <div class="col-8">
+          <h2 class="name">Fish Tacos</h2>
+          <p class="descripton">
+            Crispy beer-battered fish, cabbage slaw, chipotle mayo, lime, and
+            salsa—coastal flavors that transport you to a beachside fiesta.
+          </p>
+          <div class="d-flex justify-content-between">
+            <p class="price">$11.25</p>
+            <button type="button" class="add-btn">Add</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row menu-item">
+        <div class="col-4">
+          <img
+            src="Sticky-Asian-Baked-Pork-Ribs-5-of-9-500x500.jpg"
+            alt="Baby Back Ribs"
+            class="img-fluid food-pic"
+          />
+        </div>
+        <div class="col-8">
+          <h2 class="name">Baby Back Ribs</h2>
+          <p class="descripton">
+            Fall-off-the-bone tenderness in smoky barbecue sauce—a mouthwatering
+            indulgence for barbecue lovers.
+          </p>
+          <div class="d-flex justify-content-between">
+            <p class="price">$20.25</p>
+            <button type="button" class="add-btn">Add</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
